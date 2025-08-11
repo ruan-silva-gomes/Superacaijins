@@ -10,23 +10,23 @@
 
 <body>
     <h1>FORMULARIO SUPERAÇAIZIN</h1>
-    <form action="">
+    <form method="post" action="principal.html">
         <fieldset>
             <label for="nome">Nome:</label><br>
             <input class="nome" type="text" nome="Nome" required><br><br>
 
 
             <label for="nome">Idade:</label><br>
-            <input class="nome" type="text" nome="Idade" required><br><br>
+            <input class="nome" type="number" nome="Idade" required><br><br>
 
             <label for="nome">Telefone:</label><br><br>
-            <input class="nome" type="text" nome="telefone"required><br><br>
+            <input class="nome" type="number" nome="telefone" required><br><br>
 
             <label for="nome">Endereço:</label><br><br>
-            <input class="nome" type="text" nome="Endereço"required><br><br>
+            <input class="nome" type="text" nome="Endereço" required><br><br>
 
             <label for="nome">Planeta de Origem:</label><br><br>
-            <select name="lista" id="planeta"required>
+            <select name="lista" id="planeta" required>
                 <option>Planeta Terra</option>
                 <option>Planeta namek</option>
                 <option>Planeta vegeta</option>
@@ -71,12 +71,13 @@
         </fieldset><br>
         <fieldset>
             Observações:<br>
-            <textarea name="escreva" id="" rows="8" cols="200">Escreva suas observações...Eu gosto de açai porque...    </textarea>
+            <textarea name="escreva" id="" rows="8"
+                cols="200">Escreva suas observações...Eu gosto de açai porque...    </textarea>
         </fieldset><br>
 
-        <input class="envia" type="reset" value="Enviar">
+        <input class="envia" type="submit" value="Enviar">
 
-        <input class="envia" type="submit" value="Limpar">
+        <input class="envia" type="reset" value="Limpar">
     </form>
 </body>
 
