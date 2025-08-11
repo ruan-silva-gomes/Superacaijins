@@ -1,0 +1,52 @@
+
+
+body {
+
+    background-image: url(../_imagens/goku.png);
+    background-size: 30%;
+    background-position: right top;
+    background-color: #4b0082;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(255, 206, 70);
+    background-color: rgba(163, 66, 187, 0.521);
+    border-style: dotted;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input {
+    background-color: aliceblue;
+    padding: 6px 8px;
+
+}
+
+fieldset {
+    color: aliceblue;
+    border-color: gold;
+
+}
+select{
+    width: 1000px;
+    padding: 6px 8px;
+}
+
+.nome {
+    height: 100%;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.envia {
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    font-size: 20px;
+}
